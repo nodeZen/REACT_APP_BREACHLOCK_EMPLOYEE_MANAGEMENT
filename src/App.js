@@ -9,10 +9,11 @@ import { setEmployeeInfo } from "./store/app.slice";
 import Header from "./components/header/header";
 
 const App = () => {
+  const dispatch = useDispatch();
+
   const { employeeInfo: ef, errorMessage } = useSelector(state => state.app);
   const employeeInfo = useMemo(() => ef, [ef]);
   const [loggedIn, setLoggedIn] = useState(false);
-  const dispatch = useDispatch();
 
   useEffect(() => {
     if (
@@ -21,11 +22,9 @@ const App = () => {
     ) {
       setLoggedIn(true);
       if (employeeInfo && !Object.keys(employeeInfo).length) {
-        dispatch(
-          setEmployeeInfo(
-            getEmployeeByEmail(localStorage.getItem("loggedInEmail"))
-          )
-        );
+        const activeEmployeeEmail = localStorage.getItem("loggedInEmail");
+        const activeEmployee = getEmployeeByEmail(activeEmployeeEmail);
+        dispatch(setEmployeeInfo(activeEmployee));
       }
     } else {
       setLoggedIn(false);
