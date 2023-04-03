@@ -19,7 +19,7 @@ const Dashboard = () => {
     } else {
       disptach(getManagerDetails(employeeInfo.reportsTo));
     }
-  }, [employeeInfo, d4isptach]);
+  }, [employeeInfo, disptach]);
 
   const reportingManagerCard = ({ firstName, lastName, email, phone }) => {
     return (

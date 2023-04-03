@@ -1,5 +1,5 @@
 import React from "react";
-import { logoutEmployee } from "./services/employee-service";
+import { logoutEmployee } from "../../services/employee-service";
 import { useDispatch } from "react-redux";
 
 const Header = ({ loggedIn }) => {
