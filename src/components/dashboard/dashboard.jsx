@@ -8,6 +8,7 @@ import "./dashboard.css";
 
 const Dashboard = () => {
   const disptach = useDispatch();
+
   const { employeeInfo, reportees, managerInfo } = useSelector(
     (state) => state.app
   );
@@ -18,15 +19,7 @@ const Dashboard = () => {
     } else {
       disptach(getManagerDetails(employeeInfo.reportsTo));
     }
-  }, [employeeInfo, disptach]);
-
-  useEffect(() => {
-    console.log({ reportees });
-  }, [reportees]);
-
-  useEffect(() => {
-    console.log({ managerInfo });
-  }, [managerInfo]);
+  }, [employeeInfo, d4isptach]);
 
   const reportingManagerCard = ({ firstName, lastName, email, phone }) => {
     return (
@@ -65,6 +58,7 @@ const Dashboard = () => {
       </div>
     </div>
   );
+
   return (
     <div className="container">
       {employeeInfo && Object.keys(employeeInfo) && (
