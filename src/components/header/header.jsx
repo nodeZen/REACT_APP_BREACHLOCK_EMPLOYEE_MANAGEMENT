@@ -1,6 +1,6 @@
 import React from "react";
-import { logoutEmployee } from "../../services/employee-service";
 import { useDispatch } from "react-redux";
+import { logoutEmployee } from "../../services/employee-service";
 
 const Header = ({ loggedIn }) => {
   const dispatch = useDispatch();

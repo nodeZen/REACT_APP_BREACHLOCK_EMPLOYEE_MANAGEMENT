@@ -7,6 +7,7 @@ export const counterSlice = createSlice({
   reducers: {
     setEmployeeInfo: (state, action) => {
       state.employeeInfo = action.payload;
+      state.errorMessage="";
     },
     setReporteesList: (state, action) => {
       state.reportees = action.payload;
@@ -14,8 +15,11 @@ export const counterSlice = createSlice({
     setManagerInfo: (state, action) => {
       state.managerInfo = action.payload;
     },
-    resetAppState: () => appState,
-  },
+    setErrorMessage: (state, action) => {
+      state.errorMessage = action.payload;
+    },
+    resetAppState: () => appState
+  }
 });
 
 // Action creators are generated for each case reducer function
@@ -23,7 +27,8 @@ export const {
   setEmployeeInfo,
   setReporteesList,
   setManagerInfo,
-  resetAppState,
+  setErrorMessage,
+  resetAppState
 } = counterSlice.actions;
 
 export default counterSlice.reducer;
