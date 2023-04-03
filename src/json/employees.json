@@ -1,0 +1,232 @@
+[
+    {
+        "id": 1,
+        "firstName": "Surya Reddy",
+        "lastName": "Mokka",
+        "email": "suryareddy409@fanfare.com",
+        "password": "suryareddy409@fanfare.com",
+        "phone": "+1 (888) 551-2849",
+        "isManager": true,
+        "reportsTo": 0
+      },
+      {
+        "id": 2,
+        "firstName": "Venkat",
+        "lastName": "Chukka",
+        "email": "venkatchukka@fanfare.com",
+        "password": "venkatchukka@fanfare.com",
+        "phone": "+1 (888) 551-2849",
+        "isManager": true,
+        "reportsTo": 0
+      },
+      {
+        "id": 3,
+        "firstName": "Taraka",
+        "lastName": "Bandi",
+        "email": "tarakabandi@fanfare.com",
+        "password": "tarakabandi@fanfare.com",
+        "phone": "+1 (888) 551-2849",
+        "isManager": true,
+        "reportsTo": 0
+      },
+    {
+      "id": 4,
+      "firstName": "Reilly",
+      "lastName": "Chaney",
+      "email": "reillychaney@fanfare.com",
+      "password": "reillychaney@fanfare.com",
+      "phone": "+1 (888) 551-2849",
+      "isManager": false,
+      "reportsTo": 3
+    },
+    {
+      "id": 5,
+      "firstName": "Glenna",
+      "lastName": "Ferguson",
+      "email": "glennaferguson@fanfare.com",
+      "password": "glennaferguson@fanfare.com",
+      "phone": "+1 (931) 442-3831",
+      "isManager": false,
+      "reportsTo": 3
+    },
+    {
+      "id": 6,
+      "firstName": "Janine",
+      "lastName": "Hess",
+      "email": "janinehess@fanfare.com",
+      "password": "janinehess@fanfare.com",
+      "phone": "+1 (835) 591-3681",
+      "isManager": false,
+      "reportsTo": 2
+    },
+    {
+      "id": 7,
+      "firstName": "Fuentes",
+      "lastName": "Eaton",
+      "email": "fuenteseaton@fanfare.com",
+      "password": "fuenteseaton@fanfare.com",
+      "phone": "+1 (879) 471-3164",
+      "isManager": false,
+      "reportsTo": 3
+    },
+    {
+      "id": 8,
+      "firstName": "Leta",
+      "lastName": "Stanley",
+      "email": "letastanley@fanfare.com",
+      "password": "letastanley@fanfare.com",
+      "phone": "+1 (915) 449-3206",
+      "isManager": false,
+      "reportsTo": 3
+    },
+    {
+      "id": 9,
+      "firstName": "Jaclyn",
+      "lastName": "Shepherd",
+      "email": "jaclynshepherd@fanfare.com",
+      "password": "jaclynshepherd@fanfare.com",
+      "phone": "+1 (872) 523-3184",
+      "isManager": false,
+      "reportsTo": 2
+    },
+    {
+      "id": 10,
+      "firstName": "Frederick",
+      "lastName": "Houston",
+      "email": "frederickhouston@fanfare.com",
+      "password": "frederickhouston@fanfare.com",
+      "phone": "+1 (910) 560-2208",
+      "isManager": false,
+      "reportsTo": 1
+    },
+    {
+      "id": 11,
+      "firstName": "Lily",
+      "lastName": "Francis",
+      "email": "lilyfrancis@fanfare.com",
+      "password": "lilyfrancis@fanfare.com",
+      "phone": "+1 (867) 489-2082",
+      "isManager": false,
+      "reportsTo": 3
+    },
+    {
+      "id": 12,
+      "firstName": "Deloris",
+      "lastName": "Page",
+      "email": "delorispage@fanfare.com",
+      "password": "delorispage@fanfare.com",
+      "phone": "+1 (821) 530-2659",
+      "isManager": false,
+      "reportsTo": 1
+    },
+    {
+      "id": 13,
+      "firstName": "Gill",
+      "lastName": "Roach",
+      "email": "gillroach@fanfare.com",
+      "password": "gillroach@fanfare.com",
+      "phone": "+1 (934) 478-3541",
+      "isManager": false,
+      "reportsTo": 2
+    },
+    {
+      "id": 14,
+      "firstName": "Shelly",
+      "lastName": "Tyson",
+      "email": "shellytyson@fanfare.com",
+      "password": "shellytyson@fanfare.com",
+      "phone": "+1 (848) 506-3054",
+      "isManager": false,
+      "reportsTo": 3
+    },
+    {
+      "id": 15,
+      "firstName": "Barr",
+      "lastName": "Barnes",
+      "email": "barrbarnes@fanfare.com",
+      "password": "barrbarnes@fanfare.com",
+      "phone": "+1 (864) 582-3658",
+      "isManager": false,
+      "reportsTo": 3
+    },
+    {
+      "id": 16,
+      "firstName": "Ray",
+      "lastName": "King",
+      "email": "rayking@fanfare.com",
+      "password": "rayking@fanfare.com",
+      "phone": "+1 (814) 487-3477",
+      "isManager": false,
+      "reportsTo": 2
+    },
+    {
+      "id": 17,
+      "firstName": "Penelope",
+      "lastName": "Hines",
+      "email": "penelopehines@fanfare.com",
+      "password": "penelopehines@fanfare.com",
+      "phone": "+1 (962) 420-2307",
+      "isManager": false,
+      "reportsTo": 3
+    },
+    {
+      "id": 18,
+      "firstName": "Whitfield",
+      "lastName": "Boone",
+      "email": "whitfieldboone@fanfare.com",
+      "password": "whitfieldboone@fanfare.com",
+      "phone": "+1 (906) 402-3362",
+      "isManager": false,
+      "reportsTo": 3
+    },
+    {
+      "id": 19,
+      "firstName": "Antonia",
+      "lastName": "Baldwin",
+      "email": "antoniabaldwin@fanfare.com",
+      "password": "antoniabaldwin@fanfare.com",
+      "phone": "+1 (953) 567-3071",
+      "isManager": false,
+      "reportsTo": 1
+    },
+    {
+      "id": 20,
+      "firstName": "Doris",
+      "lastName": "Cantu",
+      "email": "doriscantu@fanfare.com",
+      "password": "doriscantu@fanfare.com",
+      "phone": "+1 (861) 495-2402",
+      "isManager": false,
+      "reportsTo": 1
+    },
+    {
+      "id": 21,
+      "firstName": "Roxanne",
+      "lastName": "James",
+      "email": "roxannejames@fanfare.com",
+      "password": "roxannejames@fanfare.com",
+      "phone": "+1 (828) 501-2839",
+      "isManager": false,
+      "reportsTo": 2
+    },
+    {
+      "id": 22,
+      "firstName": "Jimenez",
+      "lastName": "Peters",
+      "email": "jimenezpeters@fanfare.com",
+      "password": "jimenezpeters@fanfare.com",
+      "phone": "+1 (962) 510-2933",
+      "isManager": false,
+      "reportsTo": 3
+    },
+    {
+      "id": 23,
+      "firstName": "Sharron",
+      "lastName": "Horn",
+      "email": "sharronhorn@fanfare.com",
+      "password": "sharronhorn@fanfare.com",
+      "phone": "+1 (898) 599-3672",
+      "isManager": false,
+      "reportsTo": 3
+    }
+  ]
