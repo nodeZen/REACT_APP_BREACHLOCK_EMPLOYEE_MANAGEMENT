@@ -16,8 +16,8 @@ export const loginEmployee = (email, password) => dispatch => {
     if (existingUser) {
       dispatch(setEmployeeInfo(existingUser));
       localStorage.setItem("loggedInEmail", existingUser.email);
-    }else{
-      dispatch(setErrorMessage("Incorrect email or password!"))
+    } else {
+      dispatch(setErrorMessage("Incorrect email or password!"));
     }
   }
 };

@@ -33,14 +33,12 @@ const App = () => {
   }, [employeeInfo, dispatch]);
 
   return (
-    <div className="App">      
+    <div className="App">
       <div>
         <Header {...{ loggedIn }} />
       </div>
       <div>{loggedIn ? <Dashboard /> : <Login />}</div>{" "}
-      {errorMessage && (
-        <span className="text-danger">{errorMessage}</span>
-      )}
+      {errorMessage && <span className="text-danger">{errorMessage}</span>}
     </div>
   );
 };

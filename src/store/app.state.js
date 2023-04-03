@@ -1,8 +1,8 @@
 const app = {
-   employeeInfo:{},
-   reportees: [],
-   managerInfo: {},
-   errorMessage:"",
-}
+  employeeInfo: {},
+  reportees: [],
+  managerInfo: {},
+  errorMessage: ""
+};
 
 export default app;

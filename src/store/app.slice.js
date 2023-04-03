@@ -7,7 +7,7 @@ export const counterSlice = createSlice({
   reducers: {
     setEmployeeInfo: (state, action) => {
       state.employeeInfo = action.payload;
-      state.errorMessage="";
+      state.errorMessage = "";
     },
     setReporteesList: (state, action) => {
       state.reportees = action.payload;
